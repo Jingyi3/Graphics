@@ -171,7 +171,7 @@ public class Casteljau extends Frame implements WindowListener, ComponentListene
                 flag_lab1 = 0;
             }
 
-            t = 0.0;
+            t = 0.0;//长寿村的秘密--快乐源泉--生科！！！！
             while (t <= 1.0) {
                 for (k = 0; k < sum; k++)
                     for (i = 0; i < sum - k; i++) {
@@ -225,7 +225,6 @@ public class Casteljau extends Frame implements WindowListener, ComponentListene
         }
 
         if (flag3 == 1) {
-
             ts = Double.parseDouble(text.getText());
             System.out.println(ts);
             for (k = 0; k < sum; k++)
